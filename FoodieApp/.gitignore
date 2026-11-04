@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Firebase config — contains API key + project IDs (DO NOT commit)
+GoogleService-Info.plist
+
+# Secrets / local env
+*.env
+Secrets.swift
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
